@@ -77,11 +77,11 @@ class _MyNavigationDrawerState extends State<MyNavigationDrawer> {
   }
 
   void openDrawer() {
-    scaffoldKey.currentState!.openDrawer();
+    scaffoldKey.currentState!.openEndDrawer();
   }
 
   void closeDrawer() {
-    scaffoldKey.currentState!.closeDrawer();
+    scaffoldKey.currentState!.closeEndDrawer();
   }
 
   Widget buildDrawerScaffold(BuildContext context) {
